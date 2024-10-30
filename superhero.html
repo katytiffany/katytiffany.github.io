@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Superheroes Table</title>
+        <style>
+            table {
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                font-family: Arial, sans-serif;
+                background-color: #f8f9fa;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
 
+            th, td {
+                padding: 12px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+
+            th {
+                background-color: #007bff;
+                color: white;
+                font-weight: bold;
+            }
+
+            tr:nth-child(even) {
+                background-color: #e9ecef;
+            }
+
+            .hero-image {
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Favorite Superheroes</h1>
+        
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Alias</th>
+                <th>Image</th>
+                <th>Superpower</th>
+                <th>Weakness</th>
+            </tr>
+            <tr>
+                <td>Superman</td>
+                <td>Clark Kent</td>
+                <td>
+                    <a href="https://example.com/superman.jpg" target="_blank">
+                        <img src="https://example.com/superman.jpg" alt="Superman" class="hero-image">
+                    </a>
+                </td>
+                <td>Super Strength, Flight, X-ray Vision</td>
+                <td>Kryptonite</td>
+            </tr>
+            <tr>
+                <td>Wonder Woman</td>
+                <td>Diana Prince</td>
+                <td>
+                    <a href="https://example.com/wonderwoman.jpg" target="_blank">
+                        <img src="https://example.com/wonderwoman.jpg" alt="Wonder Woman" class="hero-image">
+                    </a>
+                </td>
+                <td>Super Strength, Agility, Combat Skills</td>
+                <td>Power Loss in Captivity</td>
+            </tr>
+            <tr>
+                <td>Spider-Man</td>
+                <td>Peter Parker</td>
+                <td>
+                    <a href="https://example.com/spiderman.jpg" target="_blank">
+                        <img src="https://example.com/spiderman.jpg" alt="Spider-Man" class="hero-image">
+                    </a>
+                </td>
+                <td>Wall-Crawling, Spider-Sense, Agility</td>
+                <td>Ethyl Chloride Pesticide</td>
+            </tr>
+            <tr>
+                <td>Iron Man</td>
+                <td>Tony Stark</td>
+                <td>
+                    <a href="https://example.com/ironman.jpg" target="_blank">
+                        <img src="https://example.com/ironman.jpg" alt="Iron Man" class="hero-image">
+                    </a>
+                </td>
+                <td>Genius Intelligence, Powered Armor Suit</td>
+                <td>Arc Reactor Dependency</td>
+            </tr>
+        </table>
+    </body>
+</html>
